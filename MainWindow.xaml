@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfAppEx.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppEx"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label" Content="Enter Name?" HorizontalAlignment="Left" Margin="36,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="-7.47,0.194" Width="115" Height="41"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="203,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="38"/>
+        <Button x:Name="button" Content="Click Me!" HorizontalAlignment="Left" Margin="508,141,0,0" VerticalAlignment="Top" Width="163" Height="38" Click="Button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="182,217,0,0" TextWrapping="Wrap" Text="Hello world! I am clickable!" VerticalAlignment="Top" Width="229" Height="43" MouseLeftButtonUp="MouseLBtnUp"/>
+
+    </Grid>
+</Window>
